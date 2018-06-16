@@ -1,0 +1,87 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 17px;
+   line-height: 1.6;
+}
+
+.button {
+   background: skyblue;
+   padding: 1em 2em;
+   width: 50%;
+   color: #fff;
+   font-weight: 700;
+   border: 0;
+   outline: none;
+   border-radius: 500px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   position: absolute;
+   font-size: 1.2rem;
+   text-transform: uppercase;
+}
+
+.button:hover, .button:focus {
+   background: rgb(32, 131, 170);
+   cursor: pointer;
+   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.17);
+}
+
+.modal {
+   display: none;
+   position: fixed;
+   z-index: 1;
+   left: 0;
+   top: 0;
+   height: 100%;
+   overflow: auto;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+   background-color: #eee;
+   margin: 20% auto;
+   width: 70%;
+   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+}
+
+.modal-header h2, .modal-footer h3 {
+   margin: 0;
+}
+
+.modal-header {
+   background: skyblue;
+   padding: 15px;
+   color: #333;
+}
+
+.modal-body {
+   padding: 10px 20px;
+}
+
+.modal-footer {
+   background: skyblue;
+   padding: 10px;
+   color: #333;
+   text-align: center;
+}
+
+.closeBtn {
+   float: right;
+   color: #333;
+   font-size: 30px;
+   text-align: center;
+   overflow: hidden;
+   line-height: 1.05;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+}
+
+.closeBtn:hover, .closeBtn:focus {
+   background-color: rgb(32, 131, 170);
+   cursor: pointer;
+   color: #fff;;
+   text-decoration: none;
+   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.17);
+}
